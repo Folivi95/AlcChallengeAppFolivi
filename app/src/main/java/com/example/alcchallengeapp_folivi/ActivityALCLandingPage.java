@@ -15,7 +15,7 @@ public class ActivityALCLandingPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ALCLandingPage);
+        setContentView(R.layout.activity_LandingPage);
         WebView alcAboutPage = findViewById(R.id.about_alc_webview);
         alcAboutPage.getSettings().setJavaScriptEnabled(true);
         alcAboutPage.getSettings().setDomStorageEnabled(true);
