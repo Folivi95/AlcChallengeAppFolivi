@@ -8,6 +8,6 @@ public class ActivityProfile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_Profile);
+        setContentView(R.layout.activity_profile);
     }
 }
