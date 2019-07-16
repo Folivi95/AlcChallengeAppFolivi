@@ -3,11 +3,11 @@ package com.example.alcchallengeapp_folivi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ActivityC extends AppCompatActivity {
+public class ActivityProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_c);
+        setContentView(R.layout.activity_Profile);
     }
 }

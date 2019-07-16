@@ -9,7 +9,7 @@
     android:columnCount="1"
     android:rowCount="7"
     android:rowOrderPreserved="true"
-    tools:context=".ActivityC">
+    tools:context=".ActivityProfile">
 
     <ImageView
         android:id="@+id/profile_picture_imageview"
@@ -20,7 +20,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/image_text"
-        android:src="@drawable/github" />
+        android:src="@drawable/lekan_balogun" />
 
     <TextView
         android:id="@+id/name_textview"

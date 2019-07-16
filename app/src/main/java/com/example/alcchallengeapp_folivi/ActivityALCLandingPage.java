@@ -7,16 +7,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.webkit.SslErrorHandler;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class ActivityB extends AppCompatActivity {
+public class ActivityALCLandingPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_b);
+        setContentView(R.layout.activity_ALCLandingPage);
         WebView alcAboutPage = findViewById(R.id.about_alc_webview);
         alcAboutPage.getSettings().setJavaScriptEnabled(true);
         alcAboutPage.getSettings().setDomStorageEnabled(true);
@@ -26,7 +25,7 @@ public class ActivityB extends AppCompatActivity {
             @Override
             public void onReceivedSslError(final WebView view, final SslErrorHandler handler, SslError error) {
                 Log.d("CHECK", "onReceivedSslError");
-                AlertDialog.Builder builder = new AlertDialog.Builder(ActivityB.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(ActivityALCLandingPage.this);
                 AlertDialog alertDialog = builder.create();
                 String message = "Certificate error.";
                 switch (error.getPrimaryError()) {

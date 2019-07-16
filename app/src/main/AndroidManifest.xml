@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ActivityC"
+            android:name=".ActivityProfile"
             android:label="@string/label_activityC"></activity>
         <activity
-            android:name=".ActivityB"
+            android:name=".ActivityALCLandingPage"
             android:label="@string/label_activityB"/>
         <activity
             android:name=".MainActivity"
